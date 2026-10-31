@@ -1,0 +1,10 @@
+# TLP · Контроль — статичний сайт, збірка не потрібна.
+# Netlify публікує теку site/ як є.
+[build]
+  publish = "site"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

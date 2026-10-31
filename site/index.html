@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TLP Контроль</title>
+<meta name="description" content="Вхідний і вихідний контроль знань 8 кроків процедури керівництва підрозділом (TLP).">
+<meta name="theme-color" content="#141413">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M0 0h24l8 8v24H0z' fill='%23FF5B1F'/%3E%3Cpath d='M7 9h12v3h-4.5v11h-3V12H7z' fill='%23160A04'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="#home" aria-label="TLP Контроль, на головну">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">TLP<span>/Контроль</span></span>
+    </a>
+    <nav class="nav" aria-label="Розділи">
+      <a href="#steps" data-nav="steps">8 кроків</a>
+      <a href="#test" data-nav="test">Тестування</a>
+      <a href="#journal" data-nav="journal">Журнал</a>
+      <a href="#how" data-nav="how">Порядок</a>
+    </nav>
+    <div class="top__right">
+      <span class="lang" aria-label="Мова: українська">UA</span>
+      <a class="btn btn--ghost btn--sm" href="#test">Почати тест</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ═════════════ ГОЛОВНА ═════════════ -->
+  <div id="view-home" class="view">
+
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <h1 class="hero__title" id="hero-title">
+        <span class="hero__w1">TLP</span>
+        <span class="hero__w2">Контроль</span>
+      </h1>
+      <a class="btn btn--accent hero__cta" href="#test" data-preset="entry">Почати тест</a>
+      <p class="hero__lede">
+        Вхідний і вихідний контроль знань <em>8 кроків процедури керівництва підрозділом</em>
+        (Troop Leading Procedures). Слухач проходить тест до і після навчання,
+        інструктор бачить приріст за кожним кроком.
+      </p>
+
+      <div class="shots">
+        <figure class="shot shot--a">
+          <div class="shot__box">
+            <a class="shot__frame" href="#test" data-preset="entry" aria-label="Пройти вхідний контроль">
+              <canvas class="shot__map" data-seed="11" data-overlay="axis" aria-hidden="true"></canvas>
+              <span class="shot__tag">Форма A</span>
+            </a>
+            <span class="shot__go" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M3 9 9 3M4 3h5v5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          </div>
+          <figcaption>Вхідний контроль · до навчання</figcaption>
+        </figure>
+        <figure class="shot shot--b">
+          <div class="shot__box">
+            <a class="shot__frame" href="#test" data-preset="exit" aria-label="Пройти вихідний контроль">
+              <canvas class="shot__map" data-seed="47" data-overlay="obj" aria-hidden="true"></canvas>
+              <span class="shot__tag">Форма B</span>
+            </a>
+            <span class="shot__go" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M3 9 9 3M4 3h5v5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          </div>
+          <figcaption>Вихідний контроль · після навчання</figcaption>
+        </figure>
+        <figure class="shot shot--c">
+          <div class="shot__box">
+            <a class="shot__frame" href="#journal" aria-label="Відкрити журнал інструктора">
+              <canvas class="shot__map" data-seed="83" data-overlay="pl" aria-hidden="true"></canvas>
+              <span class="shot__tag">Журнал</span>
+            </a>
+            <span class="shot__go" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M3 9 9 3M4 3h5v5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          </div>
+          <figcaption>Журнал інструктора · приріст</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Коротко про тест">
+      <div class="wrap stats__in">
+        <div class="stat">
+          <p class="stat__num"><span data-fill="steps">8</span></p>
+          <p class="stat__label">Кроків TLP</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num"><span data-fill="perTest">24</span><sup>×2</sup></p>
+          <p class="stat__label">Питання · вхідний і вихідний</p>
+        </div>
+        <div class="stat stat--stripe" aria-hidden="true"></div>
+        <div class="stat">
+          <p class="stat__num"><span data-fill="pass">80</span><sup>%</sup></p>
+          <p class="stat__label">Поріг зарахування</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps wrap" id="steps" aria-labelledby="steps-title">
+      <div class="sec-head">
+        <p class="eyebrow">Troop Leading Procedures</p>
+        <h2 class="h2" id="steps-title">8 кроків</h2>
+        <p class="sec-head__note">
+          Перші три кроки, як правило, виконують послідовно. Решту командир виконує
+          так, як вимагає обстановка, часто одночасно. Контроль триває протягом усієї процедури.
+        </p>
+      </div>
+      <ol class="steps__grid" id="steps-grid"></ol>
+    </section>
+
+    <section class="how wrap" id="how" aria-labelledby="how-title">
+      <div class="sec-head">
+        <p class="eyebrow">Порядок контролю</p>
+        <h2 class="h2" id="how-title">Як це працює</h2>
+      </div>
+      <ol class="how__list">
+        <li>
+          <span class="how__n">01</span>
+          <h3>Вхідний контроль</h3>
+          <p>До початку навчання. Форма A, 24 питання. Фіксує вихідний рівень кожного слухача за кожним кроком.</p>
+        </li>
+        <li>
+          <span class="how__n">02</span>
+          <h3>Навчання</h3>
+          <p>Інструктор бачить у журналі найслабші кроки групи й приділяє їм більше часу.</p>
+        </li>
+        <li>
+          <span class="how__n">03</span>
+          <h3>Вихідний контроль</h3>
+          <p>Після навчання. Форма B: інші питання того самого рівня. Зараховано від <b data-fill="pass">80</b>%.</p>
+        </li>
+        <li>
+          <span class="how__n">04</span>
+          <h3>Аналіз приросту</h3>
+          <p>Журнал зіставляє обидва результати слухача й показує приріст загалом і за кроками.</p>
+        </li>
+      </ol>
+      <div class="how__cta">
+        <a class="btn btn--accent" href="#test" data-preset="entry">Вхідний контроль</a>
+        <a class="btn btn--ghost" href="#test" data-preset="exit">Вихідний контроль</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═════════════ ТЕСТУВАННЯ ═════════════ -->
+  <div id="view-test" class="view" hidden>
+    <section class="wrap page" id="test-root" aria-live="polite"></section>
+  </div>
+
+  <!-- ═════════════ ЖУРНАЛ ═════════════ -->
+  <div id="view-journal" class="view" hidden>
+    <section class="wrap page" id="journal-root"></section>
+  </div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p class="foot__brand">TLP<span>/Контроль</span></p>
+    <p>Питання складено за ATP 3-21.8, ATP 3-21.10 та FM 6-0. Навчальний інструмент для інструкторів.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="assets/questions.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
